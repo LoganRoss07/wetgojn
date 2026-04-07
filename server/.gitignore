@@ -1,0 +1,25 @@
+#Files included in here should be ignored
+
+#Used to hide API key and API read access token
+
+#contains secrets
+.env
+.env.*
+
+#python cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+#folders
+env/
+ENV/
+secret/
+SECRET/
+.vscode/
+
+#os files
+.DS_Store
+Thumbs.db
