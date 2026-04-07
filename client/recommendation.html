@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browse Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo.png" width="40">
+    </a>
+
+    <ul class="navbar-nav mx-auto flex-row">
+      <li class="nav-item">
+        <a class="nav-link mx-3" href="browser.html">Browse</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-3" href="index.html">Recommendations</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mx-3" href="ratings.html">My Ratings</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link mx-3" href="dashboard.html">Dashboard</a>
+      </li>
+    </ul>
+
+    <img src="profile.jpg" width="40" class="rounded-circle">
+  </div>
+</nav>
+
+<h1 class="mt-2 ms-2 text-align center">Recommended Movies</h1>
+
+<div class="card m-4">
+    <div class="card-body bg-secondary text-light">
+        <p>These movie recommendations have been chosen for you based on your previous movies you have watched and rated.</p>
+    </div>
+</div>
+
+<div class="card m-4 bg-secondary">
+    <div class="card-body">
+        <div class="container text-center">
+            <div class="row">
+
+                <div class="col-md-4">
+                        <div class="card bg-dark text-light border-0 h-100">
+                            <img src="the_good_the_bad_and_the_ugly.jpg" class="card-img-top">
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title">The Good, the Bad, and the Ugly</h5>
+                                <p class="card-text">Release date: 22 August 1968</p>
+                                <p class="card-text">Ratings: 8.8/10</p>
+                                <a href="#" class="btn btn-secondary mt-auto">Watch now</a>
+                            </div>
+                        </div>
+                    </div>
+
+               <div class="col-md-4">
+                        <div class="card movie-card bg-dark text-light border-0 h-100">
+                            <img src="inglourious_basterds.jpg" class="card-img-top">
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title">Inglourious Basterds</h5>
+                                <p class="card-text">Release date: 21 August 2009</p>
+                                <p class="card-text">Ratings: 8.4/10</p>
+                                <a href="#" class="btn btn-secondary mt-auto">Watch now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="col -md-4">
+                        <div class="card movie-card bg-dark text-light border-0 h-100">
+                            <img src="the_shawshank_redemption.jpg" class="card-img-top">
+                            <div class="card-body d-flex flex-column text-center">
+                                <h5 class="card-title">The Shawshank Redemption</h5>
+                                <p class="card-text">Release date: 23 September 1994</p>
+                                <p class="card-text">Ratings: 9.3/10</p>
+                                <a href="#" class="btn btn-secondary mt-auto">Watch now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
